@@ -12,7 +12,7 @@ namespace DataAccessLayer.Concrete
     {
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            optionsBuilder.UseSqlServer("Server=LAPTOP - 8PPT5PTN\\SQLEXPRESS;Database=TravelVistaDB;Trusted_Connection=True;TrustServerCertificate=True;");
+            optionsBuilder.UseSqlServer("Server=LAPTOP-8PPT5PTN\\SQLEXPRESS;Database=TravelVistaDB;Trusted_Connection=True;TrustServerCertificate=True;");
         }
 
 
